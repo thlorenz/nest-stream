@@ -11,7 +11,7 @@ var asyncThru = require('async-through');
  * @param sep {Object} (optional) 
  *  any non-null object to serve as a separator between values queued for one value piped by the outer stream
  *  default: ''
- * @return {Stream} that emits a value for each value provided by either of the inner streams
+ * @return {Stream} that queues a value for each value provided by either of the inner streams
  */
 var go = module.exports = function (getInnerStream, sep) {
   var outerStream = asyncThru(onouter);
