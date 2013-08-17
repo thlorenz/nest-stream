@@ -1,6 +1,6 @@
 {
   "name": "nest-stream",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Stream that allows nesting another stream for each value of the outer stream and streams the flattened result.",
   "main": "index.js",
   "scripts": {
