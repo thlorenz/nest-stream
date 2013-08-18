@@ -26,7 +26,7 @@
     "through": "~2.3.4",
     "concat-stream": "~1.0.1"
   },
-  "keywords": [],
+  "keywords": [ "nest", "inner", "outer", "stream", "combine", "through", "transform" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
