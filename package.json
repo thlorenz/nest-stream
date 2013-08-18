@@ -1,6 +1,6 @@
 {
   "name": "nest-stream",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stream that allows nesting another stream for each value of the outer stream and streams the flattened result.",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,15 @@
     "through": "~2.3.4",
     "concat-stream": "~1.0.1"
   },
-  "keywords": [ "nest", "inner", "outer", "stream", "combine", "through", "transform" ],
+  "keywords": [
+    "nest",
+    "inner",
+    "outer",
+    "stream",
+    "combine",
+    "through",
+    "transform"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
